@@ -1,0 +1,43 @@
+# Build directories
+build/
+build-*/
+out/
+
+# Qt generated files
+*.moc
+*.qrc
+*.qmlc
+*.jsc
+
+# Compiled files
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+
+# IDE files
+*.pro.user
+*.creator
+*.autosave
+
+# Debug/Release folders
+Debug/
+Release/
+RelWithDebInfo/
+MinSizeRel/
+
+# CMake files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
